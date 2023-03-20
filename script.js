@@ -43,7 +43,7 @@ function move31(){
     document.getElementById("LaptopsTabs").style.transform = "translateY(4em)";
     document.getElementById("LaptopsTabs").style.transitionDelay = "0s,0s,0.3s";
 }
-// this is for test.
+
 function move32(){
     document.getElementById("LaptopsTabs").style.visibility = "hidden";
     document.getElementById("LaptopsTabs").style.opacity = "0";
