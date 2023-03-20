@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="col-sm-12" style="min-height: 50px;min-height: 50px;">
+        <div class="row">
+            <div class="col-sm-8 row">
+                <div class="col-sm-2" style="padding-top: 5px;">
+                    <div class="navigation__logo" onmouseover="logoEffect()" onmouseleave="logoEffect1()" style="max-width: 32px; max-height: 32px;">
+                        <h4><a class="logo__link">
+                            <svg class="logo__mi"
+                                viewBox="0 0 112 112" version="1.1"> 
+                                <g fill="#ff6900">
+                                    <path class="logo__home_bg"
+                                        d="M100.326,11.702 C89.76,1.176 74.566,0 56,0 C37.41,0 22.194,1.19 11.632,11.744 C1.072,22.294 0,37.486 0,56.054 C0,74.626 1.072,89.822 11.636,100.376 C22.198,110.932 37.412,112 56,112 C74.588,112 89.8,110.932 100.362,100.376 C110.926,89.82 112,74.626 112,56.054 C112,37.462 110.914,22.254 100.326,11.702 L100.326,11.702 Z">
+                                    </path>
+                                </g>
+                                <g fill="#ffffff">
+                                    <path class="logo__home" id="effect"
+                                        d="M57.8054292,26.743366 L57.931608,26.8782679 L81.3680343,53.7784796 C82.7703315,55.3874915 81.6885448,57.872013 79.5991142,57.9952335 L79.4364262,58 L76,58 L76,71.3345882 C76,75.0164706 72.9809524,78 69.2552381,78 L42.7447619,78 C39.0190476,78 36,75.0164706 36,71.3345882 L36,58 L32.5635738,58 C30.4234399,58 29.2530924,55.5557037 30.5289714,53.903922 L30.6319657,53.7784796 L54.068392,26.8782679 C55.0457355,25.754085 56.766743,25.7091177 57.8054292,26.743366 Z M200.6006,34.56 C200.9866,34.56 201.3066,34.87 201.3066,35.252 L201.3066,76.754 C201.3066,77.13 200.9866,77.442 200.6006,77.442 L191.5066,77.442 C191.1166,77.442 190.8006,77.13 190.8006,76.754 L190.8006,35.252 C190.8006,34.87 191.1166,34.56 191.5066,34.56 L200.6006,34.56 Z M161.1406,34.56 C168.0006,34.56 175.1726,34.874 178.7086,38.414 C182.188558,41.897875 182.564028,48.8333125 182.578162,55.5684076 L182.5786,76.754 C182.5786,77.13 182.2626,77.442 181.8726,77.442 L172.7826,77.442 C172.3926,77.442 172.0746,77.13 172.0746,76.754 L172.0746,55.204 C172.0646,51.442 171.8486,47.576 169.9086,45.63 C168.2386,43.956 165.1226,43.572 161.8826,43.492 L145.4026,43.492 C145.0146,43.492 144.6986,43.804 144.6986,44.18 L144.6986,76.754 C144.6986,77.13 144.3786,77.442 143.9906,77.442 L134.8926,77.442 C134.5046,77.442 134.1906,77.13 134.1906,76.754 L134.1906,35.252 C134.1906,34.87 134.5046,34.56 134.8926,34.56 L161.1406,34.56 Z M163.1766,51.088 C163.5626,51.088 163.8766,51.398 163.8766,51.776 L163.8766,76.754 C163.8766,77.13 163.5626,77.442 163.1766,77.442 L153.6246,77.442 C153.2326,77.442 152.9166,77.13 152.9166,76.754 L152.9166,51.776 C152.9166,51.398 153.2326,51.088 153.6246,51.088 L163.1766,51.088 Z M59.2999404,54 L52.6952892,54 C51.2597451,54 50.0896172,55.1942589 50.0049103,56.6981405 L50,56.872989 L50,63.127011 C50,64.6534011 51.1169596,65.9041929 52.530874,65.9947504 L52.6952892,66 L59.2999404,66 C60.7354844,66 61.910036,64.8057411 61.9950706,63.3018595 L62,63.127011 L62,56.872989 C62,55.2878916 60.7906977,54 59.2999404,54 Z">
+                                    </path>
+                                </g>
+                            </svg></a></h4>
+                    </div>
+                </div>
+                <div class="col-sm-2 cursor" style="padding-top: 5px;padding-bottom: 5px;"><h5>Store</h5></div>
+                <div class="col-sm-2 cursor" style="padding-top: 5px;padding-bottom: 5px;" onmouseover="move11()" onmouseleave="move12()"><h5>Phone</h5></div>
+                <div class="col-sm-2 cursor" style="padding-top: 5px;padding-bottom: 5px;" onmouseover="move21()" onmouseleave="move22()"><h5>TV & Smart Home</h5></div>
+                <div class="col-sm-2 cursor" style="padding-top: 5px;padding-bottom: 5px;" onmouseover="move31()" onmouseleave="move32()"><h5>Laptop & Tablet</h5></div>
+                <div class="col-sm-2 cursor" style="padding-top: 5px;padding-bottom: 5px;" onmouseover="move41()" onmouseleave="move42()"><h5>Life style</h5></div>
+            </div>
+            <div class="col-sm-1">
+                <h6> 
+            </div>
+            <div class="col-sm-3 ">
+                <div class="col-sm-3 Discover" style="padding-top: 5px; padding-bottom: 5px;"><h5>Discover</h5></div>
+                <div class="col-sm-3 Support" style="padding-top: 5px; padding-bottom: 5px;"><h5>Support</h5></div>
+                <div class="col-sm-2 secarch" style="padding-top:5px; padding-bottom:5px"><h4>
+                    <svg id="i-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18" height="18"
+                        fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2">
+                        <circle cx="14" cy="14" r="12" />
+                        <path d="M23 23 L30 30" />
+                    </svg></h4>
+                </div>
+                <div class="col-sm-2 i-cart" style="padding-top: 5px; padding-bottom: 5px;"><h4>
+                    <svg id="i-cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18" height="18"
+                        fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2">
+                        <path d="M6 6 L30 6 27 19 9 19 M27 23 L10 23 5 2 2 2" />
+                        <circle cx="25" cy="27" r="2" />
+                        <circle cx="12" cy="27" r="2" />
+                    </svg></h4>
+                   <div><h6 class="Signline1 row" onmouseover="signlinein()" onmouseleave="signlineout()">you are is empty</h6></div> 
+                </div>
+                <div class="col-sm-2 sign" style="padding-top: 5px; padding-bottom: 5px;"><h4>
+                    <svg id="i-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18" height="18"
+                        fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2">
+                        <path
+                          d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z" />
+                    </svg></h4>
+                    <span id="searchline2" onmouseover="searchmove2()" onmouseleave="searchmoveout2()"></span><h6>SignIn</h6><p>SignUp</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 row" id="Phone">
+            <div class="col-sm-6 right"><h4 class="fontWeight">Xiaomi</h4></div>
+            <div class="col-sm-6 left"><h4>Redmi</h4></div>
+    </div>
+    <div class="col-sm-12" id="Tv">
+        <div class="col-sm-6 row">
+        <div class="col-sm-4 dropdown"><h4 class="fontWeight">TV</h4><h5>Xiaomi TV</h5><h5>Redmi TV</h5><h5>QLED TV & OLEDTV</h5><h5>TV Accessories</h5></div>
+        <div class="col-sm-4 dropdown2"><h4 class="fontWeight">Smater Living</h4><h5>Security Cameras</h5><h5>Smart Light</h5><h5>Smart Fan</h5><h5>Smater</h5></div>
+        <div class="col-sm-4 dropdown3 "><h4 class="fontWeight">Smater Appliances</h4><h5>Water Purifier</h5><h5>Vaccum Cleaner</h5><h5>Smart Fryer</h5></div>
+    </div>
+    <div class="col-sm-6"></div>
+    </div>
+    <div class="col-sm-12" id="LaptopsTabs" >
+        <div class="col-sm-8 row">
+        <div class="col-sm-3 Laptop"><h4 class="fontWeight">Laptops</h4><h5>Xiaomi NoteBook</h5><h5>RedmiBook</h5><h5>Laptop Accessories</h5></div>
+        <div class="col-sm-3 Tablet"><h4 class="fontWeight">Tablets</h4><h5>Xiaomi Pad</h5><h5>Redmi Pad</h5><h5>Tablet Accessories</h5></div>
+        <div class="col-sm-2"></div>
+        </div>
+<div class="col-sm-4 "></div>
+    </div>
+    <div class="col-sm-12 row" id="LifeStyle" >
+        <div class="col-sm-3 Chargers"><h4 class="fontWeight">Power-Bank & Chargers</h4><h5>Power Bank</h5><h5>Charger</h5><h5>Cable</h5></div>
+        <div class="col-sm-3 Gromming"><h4 class="fontWeight">Gromming & Hygiene</h4><h5>Trimmer</h5><h5>Toothbresh</h5><h5>Masks</h5></div>
+        <div class="col-sm-2 Audio"><h4 class="fontWeight">Audio</h4><h5>Wired EarPhones</h5><h5>Wireless EarPhones</h5><h5>Earbuds</h5><h5>Speakers</h5></div>
+        <div class="col-sm-2 Wearables"><h4 class="fontWeight">Wearables</h4><h5>Smart Watches</h5><h5> Watch Accessories</h5><h5>Fitness Bands </h5><h5>Band Accessories</h5></div>
+        <div class="col-sm-2 ApparelsShoesMore"><h4 class="fontWeight">Apparels, Shoes & More</h4><h5> Shoes & Apparels</h5><h5>Tools & Toys</h5><h5> Stationery</h5></div>
+        <div class="col-sm-2 BackpackTravel" ><h4 class="fontWeight">Backpack & Travel</h4><h5>Mi Backpacks</h5><h5>Sunglasses</h5><h5>Mi Selfie Stick</h5><h5>Electric Air Compressor</h5></div>
+    </div>
+    <!-- <div class="col-sm-12  "id="Discover">
+         <div class="col-sm-3 "></div>
+     <div class="col-sm-8 row Div">
+        <div class="col-sm-2"><h6 class="fontWeight">Recommended</h6></div>
+        <div class="col-sm-2 row"><span>|</span><span class="fontWeight">Articles</span></div>
+        <div class="col-sm-2 row"><span>|</span><span class="fontWeight">Videos&Images</span></div>
+        <div class="col-sm-2 row"><span>|</span><span class="fontWeight">Offers Cornner</span></div>
+        <div class="col-sm-1 row"><span>|</span><span class="fontWeight">Explore</span></div>
+    </div>
+    <div class="col-sm-2"></div> 
+</div> -->
+<div class="containerimages ">
+    <div class="col-sm-12"><img class="img" height="100%" width="100%" src="./Images/one.jpg"/></div>
+    
+<div class="col-sm-12 "style="padding-top:15px" >
+    <div class="col-sm-6"><img class="img" height="440px" width="600px" src="./Images/threed.jpg"></div>
+    <div class="col-sm-6"><img class="img" height="100%" width="100%" src="./Images/four.jpg"></div>
+</div>
+<div class="col-sm-12" style="padding: 15px; ">
+    <div class="col-sm-6"><img class="img" height="400px" width="605px" src="./Images/five.jpg"></div>
+    <div class="col-sm-3"><img class="img" height="400px" width="280px" src="./Images/six.jpg"></div>
+    <div class="col-sm-3 battary" style="height: 20vw; width: 20vw;margin-left: 3vw; padding-top: 20px;"><h3 class="fontWeight">Stay in Charge</h3><h6>Power Banks & Cables</h6><h5 class="color" style="padding-top:10px;">learn more></h5><img class="img" height="240px" width="200px" src="./Images/Two.jpg"></div>
+    <div class="col-sm-12 ">
+        <div class="col-sm-6 "><!--<img class="site-swiper__slide-left-img" src="//i03.appmifile.com/829_operator_in/15/11/2022/f9bfbe59bf95c4fa63a95fcc73381b70.png" alt="Xiaomi 12 Pro"><img class="site-swiper__slide-left-icon" src="//i01.appmifile.com/webfile/globalimg/i18n/other/showPlayIcon.png" alt="Play Icon"> -->
+    <video class="video" height="500px" width="590px" controls><source src="http://global-shop.inf.miui.com/c51f4df2d285d6c7783c9b4bb6d59de9" type="video/mp4"></video>
+</div>
+   <div class="col-sm-6" style="height:10px; padding-top: 150px; "><h6 class="name"># Discover</h6><h2>Redmi 11 Prime 5G</h2><div class="center"><h6 style="padding-top: 10px;"> Get 5G Ready With The 5G All-Rounder </h6><h6>Explore Now</h6><h6>learn more></h6></div></div>
+   </div></div>
+</div>
+
+<div class="col-sm-12 row"><div class="col-sm-6" style="padding-top: 70px;"><h2>XIAOMI CARE</h2>
+<div class="col-sm-4 secondone"><img class="img" style="height:3.8889vw; width: 3.8889vw;" src="./Images/eight.jpg"> <h6>Mi Extended Warranty></h6></div>
+<div class="col-sm-4 secondtwo"><img class="img" style="height: 3.8889vw; width:3.8889vw" src="Images/nine.jpg"><h6>Mi Screen Protect></h6></div>
+<div class="col-sm-4 secondthree"><img class="img" style="height:3.8889vw; width:3.8889vw" src="Images/ten.jpg"><h6>Mi Complete Protect></h6></div>
+</div>
+<div class="col-sm-6 row">
+<div class="service1"><h2 >Service Center</h2><h6 class="center" style="padding-top: 20px;">We'll guide you to the best solution></h6></div>
+<div class="service2"><h2>Mi Exchange</h2><div class="Center" ><h6 style="padding-top:20px;">Renewed For Smoother Experience and Better value for Exchange></h6></div></div>
+</div></div>
+
+
+<div class="col-sm-12 " style="background-color: #303030; color:#fff;" >
+<div class="col-sm-2 last1 " style="padding: bottom 30px;"><h5 class="fontweight">Support</h5><h6>Online Help</h6><h6>Customer Service</h6><h6>Shipping FAQ</h6><h6>Warranty</h6><h6>Mi Exchange</h6>
+<h6>Mi Exchange</h6><h6>Bulk Orders</h6><h6>User Guide</h6><h6>Laptop Drivers</h6><h6>Mi Screen Protect</h6><h6>Mi Extended Warranty</h6><h6>Mi Complete Protect</h6><h6>Certification
+</h6></div>
+
+<div class="col-sm-2 last2"><h5 class="fontweight">SHOP AND LEARN</h5><div><h6>Xiaomi Phones</h6><h6>Redmi Phones</h6><h6>Tv's</h6><h6>Laptops and Tablets</h6><h6>Audio</h6><h6>Lifestyle</h6><h6>Smart Home</h6><h6></h6></div></div>
+<div class="col-sm-2 last3"><h5 class="fontweight">RETAIL STORE</h5><div><h6>Mi Home</h6><h6>Mi Authorized Store</h6><h6>Mi Store Franchise</h6></div></div>
+<div class="col-sm-3 last4"><h5 class="fontweight">ABOUT US</h5><div><h6>Xiaomi</h6><h6>Privacy Policy</h6><h6>User Agreement</h6><h6>Integrity & Compliance</h6><h6>Corporate Information</h6><h6>E-Waste Management</h6><h6>In The Press</h6>
+<h6>Trust Center</h6><h6>Culture</h6><h6>Smartphone Quality</h6><h6>TV Quality</h6><h6>Service Quality</h6></div></div>
+
+<div class="col-sm-3 last5"><h5 class="fontweight">Follow Mi</h5><h6><img class="img" style="height:2vw ; width:3vw; padding-right: 20px;" src="./Images/fbpng.jpg"><img class="img" style="height: 2vw; width:3vw; padding-right: 20px;" src="./Images/twipng.jpg"><img class="img" style="height:2vw ; width:2vw;" src="./Images/download.jpg"></h6>
+<div class="fontWeight" style="padding-top: 20px;" >Let's stay in touch</div>
+
+<div class="input" style="padding-top: 20px; padding-bottom: 20px; color: #191919;">
+    <input type="email" name="email" id="email" class="site-footer__email" placeholder="Enter email address" value>
+    <button class="mi-btn mi-btn--icon mi-btn--normal mi-btn--dark site-footer__submit"><i class="micon micon-forward submit__icon"></i></button></div>
+<div class="boxing">
+<div class="col-sm-4" style="padding-top:10px;"><img style="height:60px; width:60px!important;" src="./Images/qr.jpg "></div>
+<div class="col-sm-8 col"><h5 class="fontWeight">Get mi store app</h5></div>
+<div class="download"><p>Scan for our up-to-date information for better shopping experience</p>
+<hr>
+<div class="boxline"><img style="height: 20px; width:20px; padding-right:5px;" src="./Images/playstore.jpg"><span>Download on Google play</span></div></div>
+</div>
+</div>
+<div class=" col-sm-12 copyright row" style="padding-top: 20px;">
+    <hr>
+<div class="col-sm-4"><h6>Copyright © 2010 - 2023 Xiaomi. All Rights Reserved</h6></div>
+<div class="col-sm-2"><h6>Cookie Policy</h6></div>
+<div class="col-sm-4"></div>
+<div class="col-sm-2 network" style="padding-right: 2px;"><h6>India / India</h6>
+    <!-- <img class="img row" style="height: 20px; width:20px" src="./Images/network.jpg"> -->
+</div>
+</div>
+</div> 
+</body>
+</html>

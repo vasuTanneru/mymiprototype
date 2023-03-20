@@ -1,0 +1,298 @@
+.navigation__logo .logo__link, .navigation__logo .logo__mi {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px)
+{
+.navigation__logo {
+    height: 28px;
+    padding: 0 16px;
+    width: 28px;
+}
+}
+.navigation__logo {
+    box-sizing: initial;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 100;
+}
+.secondone{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+}
+.secondtwo{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+}
+.secondthree{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+}
+
+.download{
+    font: size 12px;
+    text-align: center;
+}
+.service1{
+    padding-bottom:80px;
+    padding-top: 67px;
+}
+.service2{
+    padding-bottom:100px;
+    padding-top: 50px;
+}
+.left{
+    text-align:left;
+    
+}
+.right{
+    text-align: right;
+}
+.dropdown{
+    text-align: left;
+    padding-left: 50px;
+}
+.dropdown2{
+    text-align: center;
+    margin-inline: 50s;
+    padding-right: 50px;
+
+}
+.dropdown3{
+    text-align: right;
+    padding-right: 50px;
+}
+.TV{
+    text-align: left;
+}
+.Smart{
+    text-align: center;
+}
+.Smarter{
+    text-align: right;
+    
+
+}
+.Tablet{
+    text-align: center;
+
+}
+#Laptop{
+    text-align: left;   
+}
+.chargers{
+    text-align: initial;
+}
+.Gromming{
+    text-align: initial;
+}
+.Audio{
+    text-align: initial;
+}
+.fontWeight{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.Wearables{
+    text-align: initial;
+}
+.ApparelsShoesMore{
+    text-align: initial;
+}
+.BackpackTravel{
+    text-align:left;
+}
+.Div{
+    text-align: center;
+}
+#Phone{
+    background-color: white;
+    visibility:hidden;
+    opacity:0;
+    position:fixed;
+    transform: translateY(-3em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin: 15px;
+
+}
+#LaptopsTabs{
+    background-color: white;
+    visibility:hidden;
+    opacity:0;
+    position:fixed;
+    transform: translateY(-3em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+    padding-bottom: 35px;
+    padding-top: 20px;
+
+
+}
+#LifeStyle{
+    background-color: white;
+    visibility:hidden;
+    opacity:0;
+    font-size: 16px;
+    position:fixed;
+    transform: translateY(-3em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+    padding-bottom: 35px;
+    margin:15px;
+    padding-top: 20px;
+
+}
+#Tv{
+    background-color: white;
+    visibility:hidden;
+    opacity:0;
+    position:fixed;
+    transform: translateY(-3em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+    padding-bottom: 35px;
+    padding-top: 20px;
+
+
+}
+.cursor
+{
+    cursor: pointer;
+}
+h5{
+    font-size: 16px;   
+    padding-top: 10px;
+
+}
+h4{
+    font-size: 20px;
+}
+h6{
+    font-size: small;
+    padding-top: 10px;
+}
+.center{
+    text-align: center;
+}
+.battary{
+    text-align: center;
+    background-color: white;
+    border-width: 15px;
+    margin-left: 10px;
+    
+}
+.color{
+color: orange;
+}
+.name{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+.symbolmi{
+text-align:initial;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+.symbolmi2{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: small;
+}
+
+.symbolmi3{
+    text-align: initial;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.last1{
+    text-align:start;
+}
+.last2{
+    text-align:start;
+}
+.last3{
+    text-align:start;
+
+}
+.last4{
+    text-align:start;
+
+}
+.last5{
+  text-align:start;
+}
+.boxing{
+ border-radius: 20px;
+ border: 2px solid #4D4E53;
+ height: 200px;
+ width: 290px;
+ text-align: start;
+}
+.boxline{
+    border-bottom: #4D4E53;
+
+}
+.copyright{
+    border-inline: #4D4E53;
+}
+.network{
+    padding-left: 100px;
+}
+
+.discover{
+    text-align: center;
+}
+.support{
+    text-align: center;
+}
+.search{
+    text-align: center;
+}
+.cart{
+    text-align: start;
+}
+.sign{
+    text-align: center;
+}
+/* 
+#Discover{
+    visibility:hidden;
+    opacity:1;
+    position:fixed;
+    transform: translateY(5em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+} */
+.signline1{
+    visibility:hidden;
+    opacity:0;
+    position:fixed;
+    transform: translateY(-3em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+    background-color: rgba(25,25,25,.69);
+    height: 100vh;
+    /* transition: opacity .2s cubic-bezier(0,0,.31,.92); */
+    width: 100vw;
+}
+
+#searchline2{
+    visibility:hidden;
+    opacity:0;
+    position:fixed;
+    transform: translateY(-3em);
+    transition: all 0.3s ease 0s,visibility 0s linear 0.3s , z-index 0s linear 0.1s;
+}
